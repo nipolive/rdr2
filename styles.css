@@ -1,0 +1,88 @@
+/* Corpo da página */
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Special Elite', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #b30000; /* Vermelho */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-size: 1rem;
+  color: #ff4c4c; /* Vermelho */
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botão */
+.menu-button {
+  background-color: #b30000; /* Vermelho */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Seção do tutorial */
+.tutorial-section {
+  display: none; /* Inicialmente escondido */
+  background-color: #1a1a1a; /* Fundo mais claro que o preto */
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+  border: 3px solid #b30000; /* Borda vermelha */
+  border-radius: 10px;
+  width: 90%; /* Largura maior, quase a página toda */
+  max-width: 800px; /* Limite para não ficar gigantesco */
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.tutorial-section p {
+  font-size: 18px;
+}
+
+.tutorial-section strong {
+  color: #ff4c4c; /* Vermelho para os textos em destaque */
+}
+
+.divider {
+  width: 95%;
+  height: 1px;
+  background-color: #b30000;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
